@@ -1,0 +1,100 @@
+html {
+  font-size: 62.5%;
+  font-family: serif;
+}
+
+header,
+footer {
+  font-size: large;
+  text-align: center;
+  background-color: #4a4a4a;
+  color: #f9f9f9;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  font-size: 1.8rem;
+  max-width: 38em;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  max-width: inherit;
+  background: #fff;
+  color: #4a4a4a;
+}
+
+main {
+  flex: 1 0 80%;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+aside {
+  flex: 0 0 20%;
+  text-align: center;
+  background: #eee;
+}
+
+.container2 p,
+.container3 p,
+.flexcontainer3 p {
+  box-sizing: border-box;
+  border: 1px solid rgb(29, 27, 27);
+  margin: 40px;
+  padding: 20px;
+  width: 50%;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 1;
+  row-gap: 10px;
+}
+
+.container1 {
+  display: flex;
+  min-height: 40vh;
+  justify-content: center;
+  align-content: stretch;
+  align-items: center;
+}
+
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: flex-end;
+  min-height: 20vh;
+}
+
+.container3 {
+  display: flex;
+  justify-content: center;
+  align-content: stretch;
+  flex-direction: row;
+  align-items: center;
+  min-height: 20vh;
+}
+.container2 section {
+  margin: 10px;
+}
+
+.container3 section {
+  margin: 10px;
+  width: 100%;
+}
+
+.flexcontainer3 {
+  display: flex;
+  justify-content: space-between;
+}
+.flexcontainer3 section {
+  margin: 10px;
+  flex-wrap: wrap;
+}
